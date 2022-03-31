@@ -1,0 +1,25 @@
+{
+  "name": "djs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sapphire/ts-config": "^3.3.3",
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "tsc-watch": "^4.6.2",
+    "wokcommands": "^1.5.3"
+  },
+  "scripts": {
+    "dev": "tsc-watch -allowJs \"node /dist/index.js\"",
+    "start": "nodemon  C:/Users/Administrator/Desktop/DJS/src/index.ts",
+    "build": "tsc"
+  },
+  
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
